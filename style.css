@@ -1,0 +1,401 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+
+/* header */
+
+.header {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-1 {
+    flex-basis: 43%;
+    flex-grow: 1;
+    background-image: url("Photos/ALOKA&SANJAYAW-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    color: #fff;
+}
+
+.col-2 {
+    flex-basis: 57%;
+    flex-grow: 1;
+    padding: 40px 80px;
+    background-size: contain;
+    background-position: bottom center;
+    background-color: white;
+}
+
+.logo {
+    width: 100px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.logo-1 {
+    width: 150px;
+    cursor: pointer;
+    margin-left: 150px;
+    margin-top: -40px;
+}
+
+.right-text {
+    width: 70%;
+    margin: 180px auto 0;
+    margin-left: 120px;
+}
+
+.right-text h1 {
+    font-size: 98px;
+    font-weight: 500;
+    margin-top: -20px;
+    font-family: "Sofia", sans-serif;
+    text-shadow: 3px 3px 3px #ababab;
+    font-size: 100px;
+    margin-left: -10px;
+}
+
+.right-text h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.col-2 ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.col-2 ul li a {
+    display: inline;
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.btn {
+    border: 3px solid rgb(100, 71, 0);
+    padding: 7px 25px;
+    background-color: rgb(241, 217, 156);
+    font-style:italic;
+}
+
+.col-2 ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+/* section 1 */
+
+.section1 {
+    background:rgb(245,245,220);
+    color: rgb(100, 71, 0);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 60vh;
+}
+
+.col-3 {
+    font-family: 'Alegreya', serif;
+    font-size: 90px;
+    flex-basis: 43%;
+    flex-grow: 1;
+    margin-left: 200px;
+    margin-top: 65px;
+}
+
+.col-4 h1 {
+    font-size: 50px;
+    flex-basis: 43%;
+    flex-grow: 1;
+    margin-left: 2px;
+    margin-top: 40px;
+}
+
+.day {
+    font-size: 50px;
+    flex-basis: 43%;
+    flex-grow: 1;
+    margin-left: 250px;
+    margin-top: 0px;
+    margin-left: 11px;
+}
+
+.time {
+    font-size: 60px;
+    flex-grow: 1;
+    margin-left: -50px;
+    margin-top: 30px;
+}
+
+.place {
+    font-size: 50px;
+    margin-left: -85px;
+    margin-top: -10px;
+}
+
+.map-btn h6 {
+    color: black;
+    margin-top: 0px;
+}
+
+.map-btn {
+    margin-top: 30px;
+    margin-left: -1px;
+    margin-right: 283px;
+    padding: 8px;
+    border: 3px solid rgb(100, 71, 0);
+    background-color: rgb(245,245,220);
+    text-align: justify;
+    font-size: 20px;
+    font-family:monospace;
+    color: rgb(13, 62, 07);
+}
+
+.map-btn:hover {
+    text-decoration: underline;
+}
+
+
+
+
+/* section 2 */
+
+.section2 {
+    background: white;
+    color: gray;
+    padding: 15%;
+    display: flex;
+    flex-direction: row;
+    background-image: url("Photos/bride.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+}
+
+.raw-1 p {
+    background-color:transparent;
+    width: 600px;
+    border: 2px solid white;
+    padding: 30px;
+    margin-top: -180px;
+    margin-left: -100px;
+    color: white;
+    font-size: 15px;
+}
+
+.aloka {
+    margin-bottom: -100px;
+    margin-left: 90px;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+.aloka h3 {
+    font-size: 25px;
+    margin-left: 120px;
+}
+
+
+
+
+/* section 3 */
+
+.section3 {
+    background: rgb(245,245,220);
+    color: gray;
+    padding: 15%;
+    display: flex;
+    flex-direction: row;
+    min-height: 80vh;
+}
+
+.video {
+    margin-left: -150px;
+    margin-top: -120px;
+    margin-bottom: -200px;
+    height: 50vh;
+    border-radius: 15px;
+}
+
+.about-video {
+    margin-left: 150px;
+    margin-top: -120px;
+    margin-right: -100px;
+    color: #fff;
+    font-size: 18px;
+}
+
+
+
+
+/* section 4 */
+
+.section4 {
+    background: white;
+    color: gray;
+    padding: 15%;
+    display: flex;
+    flex-direction: row;
+    background-image: url("Photos/groom.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+}
+
+.raw-2 p {
+    background-color:transparent;
+    width: 600px;
+    border: 2px solid white;
+    padding: 30px;
+    margin-top: -180px;
+    margin-left: -100px;
+    color: white;
+    font-size: 15px;
+}
+
+.sanjaya {
+    margin-bottom: -100px;
+    margin-left: 55px;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+.sanjaya h3 {
+    font-size: 25px;
+    margin-left: 185px;
+}
+
+
+
+
+/* section 5 */
+
+.section5 {
+    display: flex;
+    justify-content: center;
+    font-family: "Trirong", serif;
+    font-size: 18px;
+    max-height: 100vh;
+    padding: 10px;
+}
+    
+form {
+    border: 5px solid rgb(53, 140, 41);
+    margin-top: 50px;
+    margin-bottom: 110px;
+}
+    
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 16px 8px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+    
+button {
+    background-color: #8ac92b;
+    color: white;
+    padding: 14px 0;
+    margin: 10px 0;
+    border: none;
+    cursor: grabbing;
+    width: 100%;
+}
+    
+.section5 h1 {
+    text-align:center;
+    font-size:18;
+    margin-top: 20px;
+}
+    
+button:hover {
+    opacity: 0.8;
+}
+    
+.formcontainer {
+    text-align: left;
+    margin: 24px 50px 12px;
+}
+
+.container {
+    padding: 16px 0;
+    text-align:left;
+}
+    
+span.psw {
+    float: right;
+    padding-top: 0;
+    padding-right: 15px;
+}
+    
+span.psw {
+    display: block;
+    float: none;
+}
+
+
+
+
+/* Footer */
+
+.footer {
+    background: rgb(245,245,220);
+    color: gray;
+    padding: 0px;
+    text-align: center;
+    max-height: 30vh;
+}
+
+.footer h1 {
+    font-size: 98px;
+    font-weight: 100px;
+    margin-top: -70px;
+}
+
+.footer h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    margin-top: -5px;
+}
+
+.web-icon {
+    margin-top: 0px;
+    margin-bottom: 10px;
+
+    width: 40px;
+    height: 40px;
+}
+
+.footer h5 {
+    font-size: 20px;
+    padding: 0px 0px 20px 0px;
+}
